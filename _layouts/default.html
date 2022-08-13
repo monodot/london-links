@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <!-- This defines the width of the browser viewport as the device's width itself (for nice rendering on mobile!) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body class="{{ page.layout }}">
+
+<div class="header">
+    <div class="logo">
+        <h1>Awesome <span>London</span></h1>
+    </div>
+    <p>A curated list of websites for getting the most out of London.</p>
+</div>
+
+{{ content }}
+
+<div class="footer">
+    <p>
+        Made in London with love by <a href="https://twitter.com/monodot" target="_blank">@monodot</a>
+    </p>
+</div>
+
+</body>
+</html>

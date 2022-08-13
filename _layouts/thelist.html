@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<p class="hide-on-desktop"><a href="#main-content">Skip to main content</a></p>
+
+<main>
+    <div class="sidebar">
+        <nav>
+            <h2>Categories</h2>
+            <ul>
+            {% for category in site.data.sites %}
+                <li><a href="#{{ category.label | slugify }}">{{ category.label }}</a></li>
+            {% endfor %}
+            </ul>
+        </nav>
+
+        <aside>
+        </aside>
+    </div>
+
+    <div class="content" id="main-content">
+        <div class="category-grid">
+            {% for category in site.data.sites %}
+            <div>
+                <h2 id="{{ category.label | slugify }}">{{ category.label }}</h2>
+                <ul>
+                {% for site in category.sites %}
+                    <li><a href="{{ site.url }}" target="_blank">{{ site.name }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</main>

@@ -1,0 +1,116 @@
+# categories:
+# - id: transport
+#   name: Transport
+
+- label: 🚇 Transport
+  sites:
+  - name: Transport for London
+    url: https://tfl.gov.uk/
+  - name: Tube and Rail Map (PDF)
+    url: https://content.tfl.gov.uk/london-rail-and-tube-services-map.pdf
+  - name: Citymapper  
+    url: https://citymapper.com/
+    description: |
+      Essential transport routing app for mobile phones.
+      Shows how to get from A to B across multiple modes, with realtime info and prices.
+  - name: traintimes.org.uk
+    url: https://traintimes.org.uk
+  - name: Free Now
+    url: https://www.free-now.com/uk/
+
+- label: Housing
+  sites:
+  - name: Spareroom
+    url: https://www.spareroom.co.uk/
+    description: |
+      Find a room in a shared flat. Thousands of listings. Free. Paid upgrade allows you to see listings earlier than others.
+  - name: Moveflat
+    url: https://www.moveflat.co.uk/
+    description: |
+      Another way to find a room in a shared flat. Very minimal site but less likely to have ads posted by agents.
+  - name: Openrent
+    url: https://www.openrent.co.uk/
+    description: |
+      Property listing site with both whole apartments and just rooms.
+
+- label: Classifieds
+  sites:
+  - name: Gumtree
+    url: https://www.gumtree.com/london
+    description: |
+
+  - name: Nextdoor
+    url: https://nextdoor.co.uk/
+    description: |
+      Local social networking app which has a 'For Sale' section. You can sell or give items away for free in your local neighbourhood.
+
+- label: Eating Out
+  sites:
+  - name: Resy
+    url: https://resy.com/
+    description: |
+      Book tables at London restaurants.
+  - name: Hot Dinners
+    url: https://www.hot-dinners.com/
+    description: |
+      London food blog, with restaurant openings and offers.
+  - name: London On The Inside
+    url: https://londontheinside.com/
+    description: |
+      Restaurant listings, recommendations and openings across London.
+
+- label: Working
+  sites:
+  - name: Othership
+    url: https://othership.com/
+    description: |
+      Membership that allows you to work from selected cafes, hotels and other places in London.
+  - name: AndCo
+    url: https://www.andco.life/
+    description: |
+      Membership that allows you to work from cafes, hotels and other places. Many venues in London.
+
+- label: Local Blogs
+  sites:
+  - name: Ian Visits
+    url: https://www.ianvisits.co.uk/
+    description: |
+      Independent blog covering many things to see and do in London.
+  - name: Diamond Geezer
+    url: https://diamondgeezer.blogspot.com/
+    description: |
+      Long-running East London blogger with a cult following. Writes in detail about London's unloved and overlooked places, painstakingly researched.
+
+- label: Clubbing
+  sites:
+  - name: Resident Advisor
+    url: https://ra.co/
+    description: |
+      All-consuming electronic music site. Features listings and tickets for most London events.
+
+- label: 🚲 Cycling
+  sites:
+  - name: TfL Cycle Hire
+    description: |
+      City-wide public bike hire scheme. Find a bike at a dock, pay for hire and return it to any other dock.
+    url: https://tfl.gov.uk/modes/cycling/santander-cycles
+  - name: Buzzbike
+    url: https://www.buzzbike.cc/
+    description: |
+      Monthly personal city bike rental.
+
+- label: 🚶 Walking
+  sites:
+  - name: Saturday Walkers Club
+    url: https://www.walkingclub.org.uk/
+    description: |
+      400+ walks, most of them within easy reach of London by Tube and rail.
+  - name: Peter's Tube Walks
+    url: https://petersgreentubewalks.wordpress.com/
+    description: |
+      More walks accessible by Tube
+  - name: Capital Ring Walk
+    url: https://tfl.gov.uk/modes/walking/capital-ring
+    description: |
+      Circular London walk consisting of 15 sections around inner London.
+
