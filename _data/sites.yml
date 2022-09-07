@@ -70,6 +70,13 @@
     description: |
       Membership that allows you to work from cafes, hotels and other places. Many venues in London.
 
+- label: Local News
+  sites:
+  - name: Southwark News
+    url: https://southwarknews.co.uk/
+    description: |
+      Online version of the newspaper for Southwark
+
 - label: Local Blogs
   sites:
   - name: Ian Visits
