@@ -2,6 +2,15 @@
 # - id: transport
 #   name: Transport
 
+- label: Arrivals
+  sites:
+  - name: Kings Cross arrivals
+    url: https://ojp.nationalrail.co.uk/service/ldbboard/arr/KGX
+  - name: Paddington arrivals
+    url: https://ojp.nationalrail.co.uk/service/ldbboard/arr/PAD
+  - name: Waterloo arrivals
+    url: https://ojp.nationalrail.co.uk/service/ldbboard/arr/WAT
+
 - label: 🚇 Transport
   sites:
   - name: Transport for London
