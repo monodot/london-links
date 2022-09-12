@@ -21,9 +21,13 @@
 
 - label: 🚇 Transport
   sites:
+  - name: Live status (TfL)
+    url: https://tfl.gov.uk/tube-dlr-overground/status/
+    description: |
+      Live service updates for Tube, trains and trams
   - name: Transport for London
     url: https://tfl.gov.uk/
-  - name: Tube and Rail Map (PDF)
+  - name: Tube & Rail Map (PDF)
     url: https://content.tfl.gov.uk/london-rail-and-tube-services-map.pdf
   - name: Citymapper  
     url: https://citymapper.com/
@@ -32,7 +36,7 @@
       Shows how to get from A to B across multiple modes, with realtime info and prices.
   - name: traintimes.org.uk
     url: https://traintimes.org.uk
-  - name: Free Now
+  - name: Free Now taxis
     url: https://www.free-now.com/uk/
 
 - label: Housing
@@ -41,14 +45,18 @@
     url: https://www.spareroom.co.uk/
     description: |
       Find a room in a shared flat. Thousands of listings. Free. Paid upgrade allows you to see listings earlier than others.
-  - name: Moveflat
-    url: https://www.moveflat.co.uk/
-    description: |
-      Another way to find a room in a shared flat. Very minimal site but less likely to have ads posted by agents.
   - name: Openrent
     url: https://www.openrent.co.uk/
     description: |
       Property listing site with both whole apartments and just rooms.
+  - name: Moveflat
+    url: https://www.moveflat.co.uk/
+    description: |
+      Another way to find a room in a shared flat. Very minimal site but less likely to have ads posted by agents.
+  - name: Rightmove
+    url: https://www.rightmove.co.uk/
+    description: |
+      Property to rent or buy.
 
 - label: Classifieds
   sites:
@@ -60,6 +68,8 @@
     url: https://nextdoor.co.uk/
     description: |
       Local social networking app which has a 'For Sale' section. You can sell or give items away for free in your local neighbourhood.
+  - name: Facebook Marketplace
+    url: https://www.facebook.com/marketplace
 
 - label: Eating Out
   sites:
@@ -67,12 +77,16 @@
     url: https://resy.com/
     description: |
       Book tables at London restaurants.
+  - name: OpenTable
+    url: https://www.opentable.co.uk/
+    description: |
+      Book tables at restaurants.
   - name: Hot Dinners
     url: https://www.hot-dinners.com/
     description: |
       London food blog, with restaurant openings and offers.
-  - name: London On The Inside
-    url: https://londontheinside.com/
+  - name: LOTI eat & drink
+    url: https://londontheinside.com/eat-and-drink/
     description: |
       Restaurant listings, recommendations and openings across London.
 
@@ -111,7 +125,7 @@
     url: https://ra.co/
     description: |
       All-consuming electronic music site. Features listings and tickets for most London events.
-  - name: 
+  - name: Design My Night
     url: https://www.designmynight.com/
     description: |
       Design, plan and book bars, clubs and parties.
@@ -122,8 +136,12 @@
     description: |
       City-wide public bike hire scheme. Find a bike at a dock, pay for hire and return it to any other dock.
     url: https://tfl.gov.uk/modes/cycling/santander-cycles
-  - name: Buzzbike
+  - name: Buzzbike rental
     url: https://www.buzzbike.cc/
+    description: |
+      Monthly personal city bike rental.
+  - name: Swapfiets bike rental
+    url: https://swapfiets.co.uk/
     description: |
       Monthly personal city bike rental.
 
